@@ -40,11 +40,15 @@ def numero_int():
 
 def tres_int(a,b,c):
     soma = a+b+c
-    #return soma
-    print(soma)
+    return soma
 
 a = numero_int()
 b = numero_int()
 c = numero_int()
 
-tres_int(a,b,c)
+soma = tres_int(a,b,c)
+print(soma)
+
+# Faça um programa com uma função chamada somaImposto. A função possui dois parâmetros formais: taxaImposto, que é a quantia de imposto sobre vendas expressa em porcentagem e custo, que é o
+# custo de um item antes do imposto. A função “altera” o valor de custo para incluir o imposto sobre vendas.
+
